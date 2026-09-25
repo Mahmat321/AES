@@ -3,12 +3,6 @@
 #include <string.h>
 #include "aes.h"
 
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "aes.h"
-
 // ============================================================================
 // Fonction de chiffrement de fichier (avec Padding PKCS#7)
 // ============================================================================

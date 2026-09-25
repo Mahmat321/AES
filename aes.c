@@ -234,8 +234,6 @@ void AES_init_ctx(AES_CTX *ctx, const uint8_t *key, AES_KeySize key_size) {
         key_bytes = 32;
     }
     
-    // J'ai corrigé l'appel ici pour transmettre la taille de la clé (key_bytes) 
-    // à la fonction KeyExpansion implémentée précédemment.
     KeyExpansion(key, ctx->round_keys, key_bytes);
 }
 
